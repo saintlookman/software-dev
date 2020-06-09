@@ -6,13 +6,12 @@ body{
     padding: 0;
     margin: 0;
     background-color: #f4f4f4;
-    
 }
 
 /* Global */
 .container {
     width: 80%;
-    height: 100px;
+    /* height: 100px; */
     margin: auto;
     overflow: hidden;
 }
@@ -36,11 +35,11 @@ ul {
 header {
     background: #35424a;
     color: #ffffff;
-    padding-top: 5px;
-    /* min-height: 40px; */
-    height: 100px;
-    border-bottom: #e8491d 1px solid;
-    overflow: hidden;
+    padding-top: 30px;
+    min-height: 70px; 
+    /* height: 100px; */
+    border-bottom: #e8491d 3px solid;
+    /* overflow: hidden; */
 }
 
 header a{
@@ -48,24 +47,24 @@ header a{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
     
 }
-/* 
+ 
 ul {
-    margin-bottom: 30px; */
+    margin-bottom: 30px; 
 }
 
-/* nav > ul {
+nav > ul {
 
     display: inline; list-style:none; text-decoration: none;
-} */
 
  header li {
+    /* float:left; */
     list-style: none;
     display: inline;
     padding: 0 20px 0 20px;
-
+    
  } 
 
 .branding {
@@ -79,11 +78,11 @@ ul {
     margin:0;
 }
 
-nav{
-    /* float: right; */
-    /* margin-top: 0px; */
+header nav {
+    float: right;
+    margin-top: 10px;
     /* margin-bottom: 60px; */
-    float:right; list-style:none; text-decoration: none; margin-top: 35px;
+    /* float:right; list-style:none; text-decoration: none; margin-top: 35px; */
 }
 
 header .highlight, header .current a {
